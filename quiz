@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" cont1ent="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Cabe">
+        <h1>Quiz</h1>
+    </div>
+
+<form>
+    <div class="Quest" id="1"> 
+        <p>Questão 1: Qual tag é usada para fazer uma lista em HTML?</p>
+        A.<input type="radio" name="Quest1" value="1"/> <ul>  <br>
+        B.<input type="radio" name="Quest1" value="2"/>  <h1>  <br>
+        C.<input type="radio" name="Quest1" value="2"/>  <p> <br>
+    </div>
+
+
+    <div class="Quest"  id="2">
+        <p>Questão 2: Para exibir uma imagem é usado a tag: </p>
+        A.<input type="radio" name="Quest2" value="2"/> script src <br>
+        B.<input type="radio" name="Quest2" value="1"/> img src <br>
+        C.<input type="radio" name="Quest2" value="2"/> Border  <br>
+    </div> 
+
+    <div class="Quest" id="3">
+        <p>Questão 3:Como define uma divisão ou seção em um documento em HTML?</p>
+        A.<input type="radio" name="Quest3" value="2"/> ol <br>
+        B.<input type="radio" name="Quest3" value="1"/> div  <br>
+        C.<input type="radio" name="Quest3" value="2"/> body <br>
+    </div>
+
+
+    <div class="Quest" id="4">
+        <p>Questão 4: oque significa HTML? </p>
+        A.<input type="radio" name="Quest4" value="2"/> significa " High Level Shading Language " <br>
+        B.<input type="radio" name="Quest4" value="2"/> significa " Não existe a sigla HTML   " <br>
+        C.<input type="radio" name="Quest4" value="1"/> significa " Linguagem de Marcação de Hipertexto " <br>
+    </div>
+
+    <div class="Quest" id="5">
+        <p>Questão 5: pra que serve o if e o else? </p>
+        A.<input type="radio" name="Quest5" value="2"/> para separar os comandos <br>
+        B.<input type="radio" name="Quest5" value="2"/> para executar os comandos do HTML <br>
+        C.<input type="radio" name="Quest5" value="1"/> Permite executar alguns comandos se uma condição for verdadeira e outros se ela for falsa <br>
+
+    </div>
+
+<div id="Fim">
+    <input type="submit" onclick="Nota()" value="Envia" id="Enviar" >
+    <input type="reset" value="Limpa">
+
+</div>
+</form>
+ <script src="script.js"></script>
+</body>
+</html>
